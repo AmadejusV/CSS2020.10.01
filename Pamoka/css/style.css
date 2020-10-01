@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+
+.container{
+	background-color: #eee;
+	margin: 50px auto; /*centruos bloka i*/
+	/*margin:50px 20px 60px 45px;*/
+	/*margin:50px;      /*visur taiko*/
+	/*margin: -80px;*/
+	border: 1px solid #000; /*dotted line*/
+	border-top: 5px dashed #ee88ff; /*virsutine linija keicia*/
+	padding: 25px;
+	width: 80%;
+}
+nav{
+	height: 50px;
+	background-color: #00ffdd;
+	padding: 5px;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	background-color: #ee88ff;
+	padding: 5px;
+}
+nav li:hover{
+	background-color: #ee55ff
+}
+nav li a{
+	text-decoration: none;
+	color: #000;
+}
